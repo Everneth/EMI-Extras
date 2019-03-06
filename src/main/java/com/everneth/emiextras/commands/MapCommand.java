@@ -5,8 +5,9 @@ import co.aikar.commands.annotation.CommandAlias;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-@CommandAlias("map")
+
 public class MapCommand extends BaseCommand {
+    @CommandAlias("map")
     public void onMap(CommandSender sender)
     {
         Player player = (Player) sender;
